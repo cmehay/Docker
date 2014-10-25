@@ -1,4 +1,4 @@
-FROM maxexcloo/nginx:latest
+FROM goldy/nginx:latest
 MAINTAINER Max Schaefer <max@excloo.com>
 RUN curl https://www.dotdeb.org/dotdeb.gpg | apt-key add - && \
 	echo "deb http://packages.dotdeb.org/ jessie all" > /etc/apt/sources.list.d/dotdeb.list && \
